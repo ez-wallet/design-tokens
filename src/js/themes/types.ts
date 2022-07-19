@@ -1,4 +1,5 @@
 import { ThemeTypography } from '../typography';
+import default from '../../../docs/BrandColors.stories';
 
 export interface ThemeColors {
   background: {
@@ -195,6 +196,24 @@ export interface ThemeColors {
      */
     disabled: string;
   };
+  yellow: {
+    /**
+     * {string} info.default - For informational semantic elements. Used for text, background, icon or border
+     */
+    default: string;
+    /**
+     * {string} info.alternative - [Deprecated] Should be used as an alternative to info/default for things like hover or pressed states
+     */
+    alternative: string;
+    /**
+     * {string} info.muted - For lowest contrast background used in informational semantic. (Example: notification background)
+     */
+    muted: string;
+  };
+  gradient:{
+    default: Array<string>;
+    error: Array<string>;
+  }
 }
 
 export interface Theme {

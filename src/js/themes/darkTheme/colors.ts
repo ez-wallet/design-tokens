@@ -6,34 +6,34 @@ import { ThemeColors } from '../types';
 
 export const colors: ThemeColors = {
   background: {
-    default: '#24272A',
-    alternative: '#141618',
+    default: '#121212',
+    alternative: '#333333',
   },
   text: {
     default: '#FFFFFF',
-    alternative: '#D6D9DC',
-    muted: '#9FA6AE',
+    alternative: '#B1B2B5',
+    muted: '#B1B2B5',
   },
   icon: {
     default: '#FFFFFF',
     alternative: '#BBC0C5',
-    muted: '#9FA6AE',
+    muted: '#B1B2B5',
   },
   border: {
     default: '#848C96',
-    muted: '#3B4046',
+    muted: '#F0F0F0',
   },
   overlay: {
-    default: '#00000099',
-    inverse: '#FCFCFC',
-    alternative: '#000000CC',
+    default: '#35353A',
+    inverse: '#FFFFFF',
+    alternative: '#78C787',
   },
   primary: {
-    default: '#1098FC',
-    alternative: '#43AEFC',
-    muted: '#1098FC26',
+    default: '#53A780',
+    alternative: '#CAEDD0',
+    muted: '#53A78020',
     inverse: '#FCFCFC',
-    disabled: '#1098FC80',
+    disabled: '#53A78080',
   },
   secondary: {
     default: '#F8883B',
@@ -43,11 +43,11 @@ export const colors: ThemeColors = {
     disabled: '#F8883B80',
   },
   error: {
-    default: '#D73A49',
-    alternative: '#E06470',
-    muted: '#D73A4926',
+    default: '#FF647C',
+    alternative: '#FD98B8',
+    muted: '#FF647C19',
     inverse: '#FCFCFC',
-    disabled: '#D73A4980',
+    disabled: '#FF647C80',
   },
   warning: {
     default: '#FFD33D',
@@ -57,11 +57,11 @@ export const colors: ThemeColors = {
     disabled: '#FFD33D80',
   },
   success: {
-    default: '#28A745',
-    alternative: '#5DD879',
-    muted: '#28A74526',
+    default: '#53A780',
+    alternative: '#CAEDD0',
+    muted: '#53A78019',
     inverse: '#FCFCFC',
-    disabled: '#28A74580',
+    disabled: '#53A78080',
   },
   info: {
     default: '#1098FC',
@@ -69,5 +69,14 @@ export const colors: ThemeColors = {
     muted: '#1098FC26',
     inverse: '#FCFCFC',
     disabled: '#037DD680',
+  },
+  yellow: {
+    default: '#FFD65C',
+    alternative: '#FFEA99',
+    muted: '#FFF3D5',
+  },
+  gradient: {
+    default: ['#53A780', '#FFD65C'],
+    error: ['#FF647C', '#F03824'],
   },
 };

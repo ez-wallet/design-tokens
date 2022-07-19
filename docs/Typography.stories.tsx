@@ -23,7 +23,7 @@ export default {
 export const FontFamily: ComponentStory<typeof Text> = (...args) => {
   const styles = {
     displayMD: {
-      fontFamily: fontFamilies.euclidCircularB,
+      fontFamily: fontFamilies.SFProRounded,
       fontSize: fontSizes.fontSize7,
       lineHeight: `${lineHeights.lineHeight6}px`,
       fontWeight: fontWeights.regular,
@@ -33,7 +33,7 @@ export const FontFamily: ComponentStory<typeof Text> = (...args) => {
   return (
     <>
       <Text as="h1" style={styles.displayMD} {...args}>
-        Euclid Circular B
+        SF Pro Rounded
       </Text>
     </>
   );
@@ -284,19 +284,19 @@ export const LargeScreen: ComponentStory<typeof Text> = (...args) => {
 export const FontWeight: ComponentStory<typeof Text> = (...args) => {
   const styles = {
     regular: {
-      fontFamily: fontFamilies.euclidCircularB,
+      fontFamily: fontFamilies.SFProRounded,
       fontSize: fontSizes.fontSize4,
       lineHeight: `${lineHeights.lineHeight5}px`,
       fontWeight: fontWeights.regular,
     },
     medium: {
-      fontFamily: fontFamilies.euclidCircularB,
+      fontFamily: fontFamilies.SFProRounded,
       fontSize: fontSizes.fontSize4,
       lineHeight: `${lineHeights.lineHeight5}px`,
       fontWeight: fontWeights.medium,
     },
     bold: {
-      fontFamily: fontFamilies.euclidCircularB,
+      fontFamily: fontFamilies.SFProRounded,
       fontSize: fontSizes.fontSize4,
       lineHeight: `${lineHeights.lineHeight5}px`,
       fontWeight: fontWeights.bold,

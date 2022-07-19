@@ -7,7 +7,7 @@ import { ThemeColors } from '../types';
 export const colors: ThemeColors = {
   background: {
     default: '#FFFFFF',
-    alternative: '#F2F4F6',
+    alternative: '#FFFFFF',
   },
   text: {
     default: '#24272A',
@@ -21,7 +21,7 @@ export const colors: ThemeColors = {
   },
   border: {
     default: '#BBC0C5',
-    muted: '#D6D9DC',
+    muted: '#F0F0F0',
   },
   overlay: {
     default: '#00000099',
@@ -29,11 +29,11 @@ export const colors: ThemeColors = {
     alternative: '#000000CC',
   },
   primary: {
-    default: '#037DD6',
-    alternative: '#0260A4',
-    muted: '#037DD619',
+    default: '#53A780',
+    alternative: '#CAEDD0',
+    muted: '#53A78020',
     inverse: '#FCFCFC',
-    disabled: '#037DD680',
+    disabled: '#53A78080',
   },
   secondary: {
     default: '#F66A0A',
@@ -43,11 +43,11 @@ export const colors: ThemeColors = {
     disabled: '#F66A0A80',
   },
   error: {
-    default: '#D73A49',
-    alternative: '#B92534',
-    muted: '#D73A4919',
+    default: '#FF647C',
+    alternative: '#FD98B8',
+    muted: '#FF647C19',
     inverse: '#FCFCFC',
-    disabled: '#D73A4980',
+    disabled: '#FF647C80',
   },
   warning: {
     default: '#F66A0A',
@@ -57,11 +57,11 @@ export const colors: ThemeColors = {
     disabled: '#FFD33D80',
   },
   success: {
-    default: '#28A745',
-    alternative: '#1E7E34',
-    muted: '#28A74519',
+    default: '#53A780',
+    alternative: '#CAEDD0',
+    muted: '#53A78019',
     inverse: '#FCFCFC',
-    disabled: '#28A74580',
+    disabled: '#53A78080',
   },
   info: {
     default: '#037DD6',
@@ -69,5 +69,14 @@ export const colors: ThemeColors = {
     muted: '#037DD619',
     inverse: '#FCFCFC',
     disabled: '#037DD680',
+  },
+  yellow: {
+    default: '#FFD65C',
+    alternative: '#FFEA99',
+    muted: '#FFF3D5',
+  },
+  gradient: {
+    default: ['#53A780', '#FFD65C'],
+    error: ['#FF647C', '#F03824'],
   },
 };

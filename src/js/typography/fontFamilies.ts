@@ -1,3 +1,3 @@
 export const fontFamilies = {
-  euclidCircularB: 'Euclid Circular B',
+  SFProRounded: 'SF Pro Rounded',
 };

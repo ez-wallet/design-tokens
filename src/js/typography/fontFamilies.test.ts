@@ -5,7 +5,7 @@ const designTokens = require('../../figma/tokens.json');
 
 describe('Font Families', () => {
   it('js tokens for font family matches figma tokens', () => {
-    expect(fontFamilies.euclidCircularB).toStrictEqual(
+    expect(fontFamilies.SFProRounded).toStrictEqual(
       designTokens.global.fontFamilies['euclid-circular-b'].value,
     );
   });
